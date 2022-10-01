@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Form</title>
+</head>
+<body>
+<form action="formulir.html" method="post">
+	<h1 align="center">Registration Form</h1>
+
+	Name : 
+	<input type="text" name="nama" ><br> <br>
+
+	Place of Birth :
+	<input type="text" name="Place" ><br><br>
+
+	Date of Birth :
+    <input type="date" /><br><br>
+
+	Gender :
+	<input type="radio" name="gender" value="Man" checked > Man
+	<input type="radio" name="gender" value="Woman" > Woman<br> <br>
+
+	Religion :
+	<select name="Religion">
+		<option value="Islam" selected> Islam</option>
+		<option value="Christians"> Christians</option>
+		<option value="Buddhists"> Buddhists</option>
+		<option value="Hindus"> Hindus</option>
+		<option value="Others"> Others</option>
+	</select><br><br>
+
+
+	Address :
+	<input type="text" name="Address"><br><br>
+
+	Country :
+	<select name="Country">
+		<option value="Indonesia" selected> Indonesia</option>
+		<option value="America"> America</option>
+		<option value="Japan"> Japan</option>
+		<option value="Korea"> Korea</option>
+		<option value="China"> China</option>
+	</select><br><br>
+
+	Email :
+	<input type="text" name="Email"><br><br>
+
+	Phone :
+	<input type="text" name="Phone"><br><br>
+
+	Photo :
+	<input type="text" name="Photo">
+	<input id='browse' type='file' style='width:0px'>
+	<button id='browser' onclick='browse.click()'>
+    Browse
+	</button><br><br>
+
+	Comment :
+	<textarea name="Comment" rows="5" cols="25"></textarea>
+
+    <input type="Submit" value="Submit">
+    <p align="left">THANK YOU</p>
+	</form>
+</body>
+</html>
